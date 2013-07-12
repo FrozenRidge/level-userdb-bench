@@ -1,6 +1,6 @@
 {
   "name": "level-userdb-bench",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Benchmark/performance/stress-test for level-userdb",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "level-userdb",
     "levelup"
   ],
+  "bin": {
+    "level-userdb-bench": "index.js"
+  },
   "author": "Niall O'Higgins",
   "license": "BSD",
   "bugs": {
