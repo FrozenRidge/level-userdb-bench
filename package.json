@@ -1,0 +1,29 @@
+{
+  "name": "level-userdb-bench",
+  "version": "0.0.0",
+  "description": "Benchmark/performance/stress-test for level-userdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FrozenRidge/level-userdb-bench.git"
+  },
+  "keywords": [
+    "level",
+    "level-userdb",
+    "levelup"
+  ],
+  "author": "Niall O'Higgins",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/FrozenRidge/level-userdb-bench/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "optimist": "~0.6.0",
+    "multilevel": "~4.1.0",
+    "level-userdb": "~0.2.0"
+  }
+}
